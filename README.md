@@ -149,3 +149,4 @@ python manage.py createsuperuser
 - Dynamic URL
 - Namespace URL
   - In template we can call `<namespace>:<name_url>`
+- admin.TabularInline, admin.StackedInline
