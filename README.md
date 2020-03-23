@@ -163,3 +163,18 @@ python manage.py createsuperuser
     - modelform_factory
 - validator
   - override validators method
+- template language, {{ varialbe }}, {{ variable | filter1 | filter2 }}, {% expression %}
+- sending email
+- cache
+  - store cache in RAM - memcached
+  - store cache in database
+  - store cache in file
+  - cache total page
+  - cache each of view
+  - cache template
+  - cache data
+- session
+  - store session in database
+  - store session in cache
+  - store session in file
+  - store session in cookie

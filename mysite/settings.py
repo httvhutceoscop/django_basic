@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'user_auth',
     'file_uploader',
     'pagination',
+    'login',
 ]
 
 MIDDLEWARE = [

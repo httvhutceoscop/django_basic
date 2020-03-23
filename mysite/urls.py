@@ -22,4 +22,5 @@ urlpatterns = [
     url(r'^user-auth/', include('user_auth.urls')),
     url(r'^file-upload/', include('file_uploader.urls')),
     url(r'^pagination/', include('pagination.urls')),
+    url(r'^login/', include('login.urls')),
 ]
