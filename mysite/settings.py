@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'polls.apps.PollsConfig',
+    'user_auth',
+    'file_uploader',
 ]
 
 MIDDLEWARE = [
