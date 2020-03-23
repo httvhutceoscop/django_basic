@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'polls.apps.PollsConfig',
     'user_auth',
     'file_uploader',
+    'pagination',
 ]
 
 MIDDLEWARE = [
