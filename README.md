@@ -159,3 +159,7 @@ python manage.py createsuperuser
     - inherit abstract class
     - inherit multiple tables
     - inherit proxy class
+  - Create model form
+    - modelform_factory
+- validator
+  - override validators method
