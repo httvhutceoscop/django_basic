@@ -150,3 +150,12 @@ python manage.py createsuperuser
 - Namespace URL
   - In template we can call `<namespace>:<name_url>`
 - admin.TabularInline, admin.StackedInline
+- Model
+  - One-to-one OneToOneField
+  - Many-to-one ForeignKey
+  - Many-to-many ManyToManyField
+  - Metadata
+  - Inherit model
+    - inherit abstract class
+    - inherit multiple tables
+    - inherit proxy class
