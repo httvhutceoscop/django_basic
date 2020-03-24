@@ -144,6 +144,27 @@ python manage.py shell
 python manage.py createsuperuser
 ```
 
+## Host Website
+
+- [PythonAnywhere](https://www.pythonanywhere.com/)
+- create virtual environment with python 3.5
+
+  ```console
+  virtualenv --python=python3.5 httvhutceoscop_env
+  ```
+
+- Require to use env:
+
+  ```console
+  source httvhutceoscop_env/bin/activate
+  ```
+
+- Install django that website is using by `pip` command:
+
+  ```console
+  (httvhutceoscop_env)$ pip install django==1.11.29
+  ```
+
 ## Keywords
 
 - Dynamic URL
@@ -178,3 +199,4 @@ python manage.py createsuperuser
   - store session in cache
   - store session in file
   - store session in cookie
+
